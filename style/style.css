@@ -89,7 +89,7 @@ body {
 .header_container {
     width: 100vw;
     height: 86vh;
-    background-image: url("/library/image/background/prisonBackgroundBlue.png");
+    background-image: url("/duplexprison/library/image/background/prisonBackgroundBlue.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -106,7 +106,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url("/library/image/texture/cubes.png");
+    background-image: url("/duplexprison/library/image/texture/cubes.png");
     backdrop-filter: blur(4px);
     background-attachment: fixed;
 }
