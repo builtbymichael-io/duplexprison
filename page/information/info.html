@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/duplexprison/">
+        <!-- Basic Meta -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Duplex Prison | Information</title>
+        <meta name="description" content="A project for a visual representation of my own prison system.">
+        <meta name="author" content="Michael Yurachek">
+        <!-- Favicon -->
+        <link rel="icon" href="/library/image/favicon/FAVICON.png" type="image/png">
+        <!-- Styles -->
+        <link rel="stylesheet" href="/style/info.css">
+        <script src="/script/script.js"></script>
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://builtbymichael.io/duplexprison/">
+        <meta property="og:title" content="Duplex Prison | Home">
+        <meta property="og:description" content="A project for a visual representation of my own prison system.">
+        <meta property="og:image" content="https://michaelyurachek.github.io/library/image/favicon/FAVICON.png">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:url" content="https://builtbymichael.io/duplexprison/">
+        <meta name="twitter:title" content="Duplex Prison | Home">
+        <meta name="twitter:description" content="A project for a visual representation of my own prison system.">
+        <meta name="twitter:image" content="https://michaelyurachek.github.io/library/image/favicon/FAVICON.png">
+    </head>
+    <body>
+        <div class="page_container">
+            <section class="built_container">
+                <img src="/library/image/icon/moon.png" class="built_image">
+                <a href="https://builtbymichael.io/">
+                    <h1 class="built_title">Built By Michael</h1>
+                </a>
+            </section>
+            <nav class="nav_container">
+                <h1 class="nav_title">Resources:</h1>
+                <a class="nav_link" href="/index.html">
+                    <img src="/library/image/icon/home.png" class="nav_icon">
+                    <h2 class="nav_text">Home</h2>
+                </a>
+                <a class="nav_link" href="/page/information/info.html">
+                    <img src="/library/image/icon/info.png" class="nav_icon">
+                    <h2 class="nav_text">Information</h2>
+                </a>
+                <a class="nav_link" href="/page/levels/levels.html">
+                    <img src="/library/image/icon/bed-alt.png" class="nav_icon">
+                    <h2 class="nav_text">Levels</h2>
+                </a>
+            </nav>
+            <section class="info_container">
+                <h1 class="info_title">Prison Information</h1>
+                <hr>
+                <nav class="info_navBanner">
+                    <button class="info_navButton" onclick="navSwitch(1)">Facility Pictures</button>
+                    <button class="info_navButton" onclick="navSwitch(2)">Regulations</button>
+                    <button class="info_navButton" onclick="navSwitch(3)">Our Facility</button>
+                    <button class="info_navButton" onclick="navSwitch(4)">Visitation</button>
+                </nav>
+                <article class="info_article">
+                    <div class="article_container" id="article1">
+                        <h1 class="article_title">Facility Pictures</h1>
+                        <p class="article_par">The pictures below display some of the areas within the prison.  Some images can not be shown due to security reasons.</p>
+                        <div class="article_imageContainer">
+                            <div class="article_imageDiv">
+                                <img src="/library/image/facilityImages/level1Cell.png" class="article_image" alt="Level 1 Cell">
+                                <p class="article_imageTitle">Level 1 Cell</p>
+                            </div>
+                            <div class="article_imageDiv">
+                                <img src="/library/image/facilityImages/level2Cell.png" class="article_image" alt="Level 1 Cell">
+                                <p class="article_imageTitle">Level 2 Cell</p>
+                            </div>
+                            <div class="article_imageDiv">
+                                <img src="/library/image/facilityImages/level3Cell.png" class="article_image" alt="Level 1 Cell">
+                                <p class="article_imageTitle">Level 3 Cell</p>
+                            </div>
+                            <div class="article_imageDiv">
+                                <img src="/library/image/facilityImages/securityRoom.png" class="article_image" alt="Level 1 Cell">
+                                <p class="article_imageTitle">Security Room</p>
+                            </div>
+                            <div class="article_imageDiv">
+                                <img src="/library/image/facilityImages/rehabRoom.png" class="article_image" alt="Level 1 Cell">
+                                <p class="article_imageTitle">Life Skills Rehab</p>
+                            </div>
+                            <div class="article_imageDiv">
+                                <img src="/library/image/facilityImages/diningHall.png" class="article_image" alt="Level 1 Cell">
+                                <p class="article_imageTitle">Dining Hall</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article_container" id="article2">
+                        <h1 class="article_title">Regulations</h1>
+                        <p class="article_par">
+                            The following regulations are in place to ensure the safety and security of all inmates and staff:
+                        </p>
+                        <hr class="article_hr">
+                        <div class="article_infoContainer">
+                            <h2 class="article_subtitle">General Regulations</h2>
+                            <ul class="article_list">
+                                <li class="article_item">All inmates must follow the rules and regulations of the facility.</li>
+                                <li class="article_item">Inmates must respect the staff and other inmates at all times.</li>
+                                <li class="article_item">Inmates are not allowed to possess any contraband items.</li>
+                                <li class="article_item">Inmates must attend all scheduled activities and programs.</li>
+                                <li class="article_item">Inmates must follow the dress code at all times.</li>
+                                <li class="article_item">Inmates must not engage in any violent or disruptive behavior.</li>
+                                <li class="article_item">Inmates must not use any electronic devices without permission.</li>
+                            </ul>
+                            <hr class="article_hr">
+                            <h2 class="article_subtitle">Visitation Regulations</h2>
+                            <ul class="article_list">
+                                <li class="article_item">Inmates are allowed to have visitors during scheduled visitation hours.</li>
+                                <li class="article_item">Visitors must be approved by the facility before visiting.</li>
+                                <li class="article_item">Visitors must follow the dress code and conduct regulations.</li>
+                                <li class="article_item">Visitors are not allowed to bring any contraband items into the facility.</li>
+                                <li class="article_item">Visitors must sign in and out at the front desk.</li>
+                            </ul>
+                            <hr class="article_hr">
+                            <h2 class="article_subtitle">Contraband Regulations</h2>
+                            <ul class="article_list">
+                                <li class="article_item">Contraband items are not allowed in the facility.</li>
+                                <li class="article_item">Contraband items include weapons, drugs, and any other illegal items.</li>
+                                <li class="article_item">Inmates found with contraband items will face disciplinary action.</li>
+                                <li class="article_item">Visitors found with contraband items will be banned from visiting the facility.</li>
+                            </ul>
+                            <hr class="article_hr">
+                            <h2 class="article_subtitle">Disciplinary Action</h2>
+                            <p class="article_parUl">
+                                Inmates who violate the regulations will face disciplinary action, which may include:
+                            </p>
+                            <ul class="article_list">
+                                <li class="article_item">Loss of privileges</li>
+                                <li class="article_item">Isolation</li>
+                                <li class="article_item">Transfer to a higher security level</li>
+                                <li class="article_item">Extended sentence</li>
+                                <li class="article_item">Change in rehabilitation program</li>
+                            </ul>
+                            <hr class="article_hr">
+                            <h2 class="article_subtitle">Conclusion</h2>
+                            <p class="article_conclusion">
+                                The regulations in place at the Duplex Corrections Facility are designed to ensure the safety and security of all inmates and staff. 
+                                It is important for all inmates to follow these regulations to maintain a safe and secure environment.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="article_container" id="article3">
+                        <h1 class="article_title">Our Facility</h1>
+                        <p class="article_par">
+                            The Duplex Corrections Facility is a state-of-the-art prison designed to provide a safe and secure environment for all inmates.
+                            We focus on rehabilitation and reintegration into society.
+                            Our facility is equipped with the latest security technology and is staffed by trained professionals who are dedicated to ensuring the safety and well-being of all inmates.
+                            <br>
+                            <br>
+                            Below are some of the key features of our facility:
+                        </p>
+                        <div class="article_infoContainer">
+                            <ul class="article_list">
+                                <li class="article_item">High security dorms for dangerous offenders</li>
+                                <li class="article_item">Medium security dorms for less dangerous offenders</li>
+                                <li class="article_item">Low security dorms for least dangerous offenders</li>
+                                <li class="article_item">Rehabilitation programs to help inmates reintegrate into society</li>
+                                <li class="article_item">Life skills training to help inmates develop the skills they need to succeed</li>
+                                <li class="article_item">Security rooms with 24/7 surveillance to ensure the safety of all inmates</li>
+                                <li class="article_item">Dining hall for all inmates to enjoy meals together</li>
+                            </ul>
+                        </div>
+                        <hr class="article_hr">
+                        <h2 class="article_subtitle">Our Mission</h2>
+                        <p class="article_par">
+                            Our mission is to provide a safe and secure environment for all inmates while also focusing on rehabilitation and reintegration into society.
+                            We believe that everyone deserves a second chance and we are committed to helping inmates achieve their goals.
+                            Our facility is designed to help inmates develop the skills they need to succeed and to provide them with the support they need to reintegrate into society.
+                        </p>
+                        <hr class="article_hr">
+                        <h2 class="article_subtitle">Current Stats</h2>
+                        <p class="article_par">
+                            As of today, the Duplex Corrections Facility has a total of 500 inmates across all levels. 
+                            The breakdown of inmates by level is as follows:
+                        </p>
+                        <ul class="article_list">
+                            <li class="article_item">Level 1: 150 inmates</li>
+                            <li class="article_item">Level 2: 200 inmates</li>
+                            <li class="article_item">Level 3: 150 inmates</li>
+                        </ul>
+                        <p class="article_par">
+                            Our facility is currently operating at 80% capacity, with room for additional inmates if needed.
+                            We are committed to providing a safe and secure environment for all inmates and will continue to work towards our mission of rehabilitation and reintegration into society.
+                        </p>
+                    </div>
+                    <div class="article_container" id="article4">
+                        <h1 class="article_title">Visitation</h1>
+                        <p class="article_par">
+                            Visitation is an important part of the rehabilitation process for inmates. 
+                            It allows inmates to maintain connections with their families and friends, which can help them reintegrate into society after their release.
+                            Our facility has a strict visitation policy to ensure the safety and security of all inmates and visitors.
+                        </p>
+                        <hr class="article_hr">
+                        <h2 class="article_subtitle">Visitation Hours</h2>
+                        <p class="article_par">
+                            Visitation hours are as follows:
+                        </p>
+                        <ul class="article_list">
+                            <li class="article_item">Monday to Friday: 9:00 AM to 5:00 PM</li>
+                            <li class="article_item">Saturday and Sunday: 10:00 AM to 4:00 PM</li>
+                        </ul>
+                        <p class="article_par">
+                            Visitors must arrive at least 30 minutes before the scheduled visitation time to allow for security checks.
+                            All visitors must be approved by the facility before visiting.
+                        </p>
+                        <hr class="article_hr">
+                        <h2 class="article_subtitle">Visitation Rules</h2>
+                        <p class="article_par">
+                            The following rules must be followed during visitation:
+                        </p>
+                        <ul class="article_list">
+                            <li class="article_item">Visitors must sign in and out at the front desk.</li>
+                            <li class="article_item">Visitors must follow the dress code and conduct regulations.</li>
+                            <li class="article_item">Visitors are not allowed to bring any contraband items into the facility.</li>
+                            <li class="article_item">Visitors must not engage in any violent or disruptive behavior.</li>
+                            <li class="article_item">Visitors must respect the staff and other visitors at all times.</li>
+                            <li class="article_item">Visitors must not take any photographs or videos during visitation.</li>
+                            <li class="article_item">Visitors must not use any electronic devices during visitation.</li>
+                        </ul>
+                        <p class="article_par">
+                            Failure to follow these rules may result in the termination of visitation privileges.
+                            We take the safety and security of all inmates and visitors very seriously and will not tolerate any violations of the visitation rules.
+                        </p>
+                    </div>
+                </article>
+            </section>
+            <footer class="footer_container">
+                <div class="footer_div">
+                    <h1 class="footer_divTitle">Connect</h1>
+                    <div class="footer_divSocial">
+                        <a href="https://builtbymichael.io/"><img src="/library/image/icon/bbmColor.png" class="footer_icon"></a>
+                        <a href="https://michaelyurachek.com/"><img src="/library/image/icon/portColor.png" class="footer_icon"></a>
+                        <a href="https://github.com/michaelyurachek"><img src="/library/image/icon/githubColor.png" class="footer_icon"></a>
+                    </div>
+                </div>
+                <div class="footer_div">
+                    <h1 class="footer_divTitle">Contact</h1>
+                    <p class="footer_par">
+                        Duplex Corrections Facility<br>
+                        1234 Prison Rd.<br>
+                        Prison City, PC 12345<br><br>
+                        Phone: (301) 420-6969
+                    </p>
+                </div>
+                <div class="footer_div">
+                    <h1 class="footer_divTitle">Additional Information</h1>
+                    <a class="footer_button" href="/page/levels/levels.html">Levels</a>
+                    <a class="footer_button" href="/page/information/info.html">Information</a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

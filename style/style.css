@@ -1,0 +1,410 @@
+/* Imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Luckiest+Guy&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* Global Style */
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-color: var(--dark-blue);
+    width: 80%;
+}
+
+b {
+    user-select: text;
+}
+
+::selection {
+    background-color: #1d2d44;
+    color: white;
+}
+  
+/* For Firefox */
+::-moz-selection {
+    background-color: #1d2d44;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow-x: hidden;
+    font-family: var(--font-1);
+}
+
+body {
+    background-color: white;
+}
+
+:root {
+    /* Fonts */
+    --font-1: "Nunito Sans", sans-serif;
+    --font-2: "Luckiest Guy", cursive;
+    --font-3: "Black Ops One", cursive;
+    /* Theme Colors */
+    --light-color: #f0ebd8;
+    --light-blue: #748cab;
+    --med-blue: #3e5c76;
+    --dark-blue: #1d2d44;
+    --darker-blue: #0d1321;
+}
+
+/* Page Containers */
+.page_container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.built_container {
+    width: 100vw;
+    height: 4vh;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 2;
+}
+
+.nav_container {
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--dark-blue);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.345);
+    z-index: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+}
+
+.header_container {
+    width: 100vw;
+    height: 86vh;
+    background-image: url("/library/image/background/prisonBackgroundBlue.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_container {
+    width: 100vw;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("/library/image/texture/cubes.png");
+    backdrop-filter: blur(4px);
+    background-attachment: fixed;
+}
+
+/* Built Styling */
+.built_image {
+    height: 80%;
+    width: auto;
+    padding: 0 2vw;
+    filter: saturate(0%) contrast(50%);
+}
+
+.built_image:hover {
+    filter: saturate(100%) contrast(100%);
+    transition: 0.2s ease;
+}
+
+.built_title {
+    color: var(--dark-blue);
+    font-size: 2vh;
+}
+
+/* Navigation Styling */
+.nav_title {
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1.1em;
+    padding-left: 4vw;
+}
+
+.nav_link {
+    height: 100%;
+    max-width: 15vw;
+    padding: 0 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_link:hover {
+    background-color: rgba(255, 255, 255, 0.093);
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.nav_icon {
+    height: 20%;
+    width: auto;
+    padding: 10px;
+    border-radius: 100vw;
+    border: 1px solid white;
+    overflow: visible;
+}
+
+.nav_text {
+    color: white;
+    font-weight: 300;
+    padding-left: 1vw;
+}
+
+/* Header Styling */
+.header_icon {
+    height: 30%;
+    width: auto;
+}
+
+.header_title {
+    color: white;
+    font-size: 5em;
+    text-wrap: wrap;
+    width: 70%;
+    font-weight: 500;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.345);
+    font-family: var(--font-3);
+    padding-left: 2vw;
+}
+
+/* About Styling */
+.about_title {
+    color: var(--dark-blue);
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+    user-select: text;
+}
+
+.about_div {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 5vh 0;
+}
+
+.about_divInfo {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about_divTitle {
+    color: var(--dark-blue);
+    font-size: 2em;
+    font-weight: 300;
+    margin: 1vh 0;
+    width: 80%;
+    user-select: text;
+}
+
+.about_divPar {
+    color: var(--dark-blue);
+    font-size: 1.3em;
+    font-weight: 200;
+    margin: 1vh 0;
+    user-select: text;
+    width: 80%;
+}
+
+.about_levels {
+    width: 70%;
+    height: auto;
+    color: var(--dark-blue);
+    font-size: 1.3em;
+    font-weight: 200;
+    line-height: 4vh;
+    margin-bottom: 10vh;
+    user-select: text;
+}
+
+/* Level Styling */
+.level_container {
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    background-color: var(--dark-blue);
+}
+
+.level_title {
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+    overflow: visible;
+}
+
+.level_par {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-bottom: 3vh;
+}
+
+.level_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.level_button {
+    background-color: transparent;
+    border: none;
+    color: rgb(228, 228, 228);
+    margin: 3vh 6vw;
+    font-size: 1.5em;
+}
+
+.level_button:hover {
+    color: white;
+    text-decoration: underline 1px white;
+    transition: 0.2s ease;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+/* Map Styling */
+.map_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.map_title {
+    color: var(--dark-blue);
+    font-size: 3em;
+    font-weight: 500;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+}
+
+.map_image {
+    width: 30%;
+    height: auto;
+}
+
+.map_par {
+    color: var(--dark-blue);
+    font-size: 1.3em;
+    font-weight: 200;
+    margin: 4vh 0;
+    width: 60%;
+    text-align: center;
+    line-height: 4vh;
+    user-select: text;
+}
+
+/* Footer Styling */
+.footer_container {
+    width: 100vw;
+    height: 40vh;
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+.footer_div {
+    width: 20vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    overflow: visible;
+}
+
+.footer_divTitle {
+    color: white;
+    font-size: 1.8em;
+    font-weight: 200;
+    margin-top: 5vh;
+    margin-bottom: 1vh;
+}
+
+.footer_divSocial {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vw;
+}
+
+.footer_icon {
+    height: 3vh;
+    width: auto;
+    background-color: rgb(236, 236, 236);
+    padding: 12px;
+    border-radius: 100vw;
+    overflow: visible;
+}
+
+.footer_icon:hover {
+    background-color: white;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.footer_par {
+    color: rgb(236, 236, 236);
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-bottom: 3vh;
+}
+
+.footer_button {
+    color: rgb(236, 236, 236);
+    font-size: 1.3em;
+    margin: 1vh 0;
+    font-weight: 200;
+}
+
+.footer_button:hover {
+    color: white;
+    text-decoration: underline 1px white;
+    transition: 0.2s ease;
+    transform: scale(1.06);
+    cursor: pointer;
+}
