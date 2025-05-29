@@ -20,7 +20,7 @@ that is based off a rehabilitation mindset.  I feel this allows people to get ba
 
 ### Simple Information:
 
-> Version: v0.1.2 (Beta)
+> Version: v0.1.3 (Beta)
 >
 > Compatability: Laptops/big monitors 
 >
