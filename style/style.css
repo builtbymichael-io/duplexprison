@@ -332,6 +332,7 @@ body {
     text-align: center;
     line-height: 4vh;
     user-select: text;
+    overflow: visible;
 }
 
 /* Footer Styling */
